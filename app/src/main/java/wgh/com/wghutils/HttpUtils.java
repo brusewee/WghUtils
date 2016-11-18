@@ -15,9 +15,9 @@ public class HttpUtils {
     /**
      *
      *
-     * @param url
-     * @param content
-     * @param encoding
+     * @param url  传入地址
+     * @param content  传入post的内容
+     * @param encoding  选择编码的方式
      * @return
      */
     public static String HttpPost(String url, String content, String encoding) {
